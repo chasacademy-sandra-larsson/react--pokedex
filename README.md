@@ -3,6 +3,7 @@
 Syftet med övningen är att öva komponenter och props i React.
 
 Du ska skapa en s.k Pokedex som håller en lista av Pokemens och rendering ska se ut (ungefär) som denna bild. 
+![Pokedex](/pokedex.png)
 
 ## Del 1
 
@@ -19,7 +20,7 @@ Den här komponenten visar en Pokemen med namn, bild, typ och experience
 
 I App-komponenten ska följande lista skickas med som props till Pokedex-komponenten.
 
-[
+`[
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
   {id: 7,   name: 'Squirtle',   type: 'water',    base_experience: 63},
   {id: 11,  name: 'Metapod',    type: 'bug',      base_experience: 72},
