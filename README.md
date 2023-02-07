@@ -2,14 +2,15 @@
 
 Syftet med övningen är lära sig att bygga en enkel React-app där du skapa en s.k Pokedex som innehåller 
 håller några utvalda Pokemenkort med respektive information om vardera Pokemon. Rendering ska se ut (ungefär) som denna bild. 
-![Pokedex](/pokedex.png=250x250). 
+![Pokedex](/pokedex.png=250x250)
 
 Vad du kommer lära dig:
 * Sätta upp ett Reactprojekt med Vite
 * Skapa din första Reactkomponent
 * Använda dig av JSX
 * Använda dig av flera komponenter
-* Skicka information från en parentkomponent till en childkomponent (props)
+* Skicka information från en komponent till en annan komponent (props)
+* Hur man renderar listor i React med hjälp av funktionen map()
 * Skriva logik (funktioner) inuti komponenter
 * Hantera props med Object Destructering
 * Dela upp varje funktionskomponent i moduler som imorteras i App.jsx
