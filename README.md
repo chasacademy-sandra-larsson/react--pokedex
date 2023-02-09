@@ -25,7 +25,7 @@
 
 Se s 11-18 i kursboken
 
-* Se till att du har Node.js installerat, https://nodejs.org/en/. 
+* Se till att du har [Node.js installera](thttps://nodejs.org) 
 * Navigera i terminalen där du vill installera din reactapp.
 * Kör sedan du följande instruktion i terminalen
 
