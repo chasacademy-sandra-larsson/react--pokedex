@@ -104,3 +104,12 @@ Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare 
 
 
 # Bonus: Blackjack
+
+Bygg en reactapp som automatisk delar ut 2 kort från en normal kortleck (eller när man klickar på knapp). 
+Använd dig av Deck of Cards API för att hämta bilden för respektive kort.
+
+´https://deckofcardsapi.com/static/img/9H.png)`
+
+Regler, kortfattat: Alla klädda kort är värda 10 poäng. Ess är värt 1 eller 11 poäng. Skriv ut "Black Jack" om summan är 21.
+
+![Pokedex](/pokedex.png)
