@@ -95,6 +95,9 @@ Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare 
 
 ## Del 3
 
-***Obs! Det kan vara en fördel att låta alla komponenter ligga i samma fil för bättre överblick - just när man lär sig React i början. D.v.s gör detta steg allra sist***
+**Obs! Det kan vara en fördel att låta alla komponenter ligga i samma fil för bättre överblick - just när man lär sig React i början. D.v.s gör detta steg allra sist**
 
-Rita en komponentträd för de komponenter som du har nu, App, Pokegame, Pokedex, Pokecard. Dela upp komponenterna i vardera modul (egen .jsx-fil). Lägg alla komponenter förutom App.jsx i en /components-folder i roten. Importera funktioneskomponenten i respektive modul - där den behövs enligt parent - child
+* Rita en komponentträd för de komponenter som du har: App, Pokegame, Pokedex, Pokecard. 
+* Dela upp komponenterna i vardera modul (egen .jsx-fil)
+* Lägg alla komponenter förutom App.jsx i en /components-folder i roten. 
+* Importera funktionskomponenten i respektive modul - där den behövs enligt parent/child
