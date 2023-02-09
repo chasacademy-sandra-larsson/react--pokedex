@@ -1,5 +1,5 @@
 
-# Workshop: Setup, Komponenter och Props
+# Workshop: Komponenter och Props
 
 ## Vad du kommer lära dig:
 * Sätta upp ett Reactprojekt med Vite
