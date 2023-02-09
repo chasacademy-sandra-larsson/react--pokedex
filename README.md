@@ -1,10 +1,7 @@
-# Övning Komponenter och Props: Pokedex
 
-Syftet med övningen är lära sig att bygga en enkel React-app där du skapa en s.k Pokedex som innehåller 
-håller några utvalda Pokemenkort med respektive information om vardera Pokemon. Rendering ska se ut (ungefär) som denna bild. 
-![Pokedex](/pokedex.png=250x250)
+# Workshop: Setup, Komponenter och Props
 
-Vad du kommer lära dig:
+## Vad du kommer lära dig:
 * Sätta upp ett Reactprojekt med Vite
 * Skapa din första Reactkomponent
 * Använda dig av JSX
@@ -15,9 +12,22 @@ Vad du kommer lära dig:
 * Hantera props med Object Destructering
 * Dela upp varje funktionskomponent i moduler som imorteras i App.jsx
 
+## Diskussionsfrågor
+* Vad står SPA för?
+* Vad är JSX?
+* Vad gör React unikt?
+* Vad är en prop? 
+
+# Övning: Pokedex
+
+Syftet med övningen är lära sig att bygga en enkel React-app flera komponenenter och props som skickar information mellan dem.
+
+Din uppgift: Du skapa en s.k Pokedex som innehåller några utvalda Pokemenkort med respektive information om vardera Pokemon. Rendering ska se ut (ungefär) som denna bild. 
+![Pokedex](/pokedex.png=250x250)
+
 ## Del 1
 
-Du ska skapa 3 olika komponenter
+Du ska skapa 3 olika komponenter: 
 
 ### App 
 Den här komponenten ska rendera ut endast en Pokedex-komponent
@@ -30,7 +40,8 @@ Den här komponenten visar en Pokemen med namn, bild, typ och experience
 
 I App-komponenten ska följande lista skickas med som props till Pokedex-komponenten.
 
-`[
+```
+[
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
   {id: 7,   name: 'Squirtle',   type: 'water',    base_experience: 63},
   {id: 11,  name: 'Metapod',    type: 'bug',      base_experience: 72},
@@ -40,9 +51,9 @@ I App-komponenten ska följande lista skickas med som props till Pokedex-kompone
   {id: 94,  name: 'Gengar',     type: 'poison',   base_experience: 225},
   {id: 133, name: 'Eevee',      type: 'normal',   base_experience: 65}
 ]
+```
 
-
-För varje Pokemon ska följande bild hämtas - enligt id.
+För varje Pokemon ska följande bild läsas in till <img src=""> - enligt id.
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png.
 
 ## Del 2
