@@ -1,18 +1,37 @@
 
-# Workshop: Komma igång med React, Komponenter och Props
+# React workshop 1: Komma igång med React, Komponenter och Props
 
-## Vad du kommer lära dig:
-* Sätta upp ett Reactprojekt med Vite
+Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin Wieruch.
+
+### Innehåll denna workshop:
+* Sätta upp ett Reactprojekt med Vite 
 * Skapa din första Reactkomponent
 * Använda dig av JSX
 * Använda dig av flera komponenter
 * Skicka information från en komponent till en annan komponent (props)
 * Hur man renderar listor i React med hjälp av funktionen map()
 * Skriva logik (funktioner) inuti komponenter
-* Hantera props med Object Destructering
-* Dela upp varje funktionskomponent i moduler som imorteras i App.jsx
+* Dela upp varje funktionskomponent i moduler som importeras i App.jsx
+* Hantera props med Object Destructering (s 68-78)
 
-## Diskussionsfrågor
+### Redovisning:
+Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
+Du redovisar slutresultat av övningen Pokedex (se nedan) 
+
+
+### Sätta upp ett Reactprojekt med Vite s 11-18 i kursboken
+
+Se till att du har Node.js installerat, https://nodejs.org/en/. Navigera i terminalen där du vill installera din reactapp.
+Kör sedan du följande instruktion i terminalen
+
+```
+npm create vite@latest my-app -- --template react
+```
+
+### Instuderingsfrågor
+
+Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
+
 * Vad står SPA för?
 * Vad är JSX?
 * Vad gör React unikt?
