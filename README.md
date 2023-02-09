@@ -18,13 +18,16 @@ Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin
 * Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
 * Du redovisar slutresultat av övningen Pokedex (se nedan) 
 
-Om du inte kan delta åp workshopen, redovisar du ovanstående nästekommande workshop.
+Om du inte kan delta på workshopen, redovisar du ovanstående nästkommande workshop.
 
 
-### Sätta upp ett Reactprojekt med Vite s 11-18 i kursboken
+### Sätta upp ett Reactprojekt med Vite 
 
-Se till att du har Node.js installerat, https://nodejs.org/en/. Navigera i terminalen där du vill installera din reactapp.
-Kör sedan du följande instruktion i terminalen
+Se s 11-18 i kursboken
+
+* Se till att du har Node.js installerat, https://nodejs.org/en/. 
+* Navigera i terminalen där du vill installera din reactapp.
+* Kör sedan du följande instruktion i terminalen
 
 ```
 npm create vite@latest my-app -- --template react
