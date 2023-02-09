@@ -44,10 +44,10 @@ Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna
 
 # Övning: Pokedex
 
-Syftet med övningen är lära sig att bygga en enkel react med flera komponenenter samt props som skickar information mellan dem.
+Syftet med övningen är lära sig att bygga en enkel reactapp med flera komponenenter samt props som skickar information mellan dem.
 
 ### Din uppgift: 
-Du skapa en s.k Pokedex som innehåller några utvalda Pokemenkort med respektive information om vardera Pokemon. Renderingen ska se ut (ungefär) som denna bild. 
+Du skapa en s.k Pokedex som innehåller några utvalda Pokemonkort med respektive information om vardera Pokemon. Renderingen ska se ut (ungefär) som denna bild (del 1 + 2).
 
 ![Pokedex](/pokedex.png)
 
@@ -72,22 +72,29 @@ Du ska skapa 3 olika komponenter:
 Den här komponenten ska rendera ut endast en Pokedex-komponent, där datat om pokemons ska skickas med som props.
 
 ### Pokedex 
-Den här komponenten ska ta emot datat om pokements (en array av objekt) och rendera vardera Pokecard. Använd dig av map()!
+Den här komponenten ska ta emot datat om pokemens (en array av objekt) och rendera vardera Pokecard. Använd dig av map()!
 
 ### Pokecard
-Den här komponenten visar en Pokemen med namn, bild, typ och experience 
+Den här komponenten visar en Pokemen med namn, bild, typ och experience (som ett kort).
 För varje Pokemon ska följande bild läsas in enligt id för en pokemon.
-https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png.
+
+`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
 
 ## Del 2
 
 * Nu ska du även skapa en Pokegame-komponent
 * Modifiera din App-komponent så att den renderar en Pokegame istället för en Pokedex
 * Pokegame ska ta emot data med pokemons och sedan slumpa 2 st "händer" med 4 st pokemens vardera. Pokegame ska alltså rendera 2 st Pokedex. 
-* I Pokegame ska du beräkna summan av `base_experience` för vardera hand. Summan ska skickas med som props till Pokedex.
-* I Pokegame ska man kunna avgöra vilken hand av pokemonkort som har högst experience. Skicka med ännu en props till Pokedex som heter `isWinner` som är true om handen har högst experience eller false om den inte har det. 
+* I Pokegame ska du beräkna summan av `base_experience` för vardera hand. Summan för varje ska skickas med som props till vardera Pokedex.
+* I Pokegame ska man kunna avgöra vilken hand av pokemonkort som har högst experience. Skicka med ännu en props till Pokedex som heter `isWinner` som är `true` om handen har högst experience eller false om den inte har det. 
 * I Pokedex-komponenten ska det nu också visas en rubrik "This hand wins!!" om isWinner är true. 
 
 ### Styling
 
 Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare i kursen kommer vi titta på andra sätt att använda CSS i React.
+
+## Del 3
+
+***Obs! Det kan vara en fördel att låta alla komponenter ligga i samma fil för bättre överblick - just när man lär sig React i början. D.v.s gör detta steg allra sist***
+
+Rita en komponentträd för de komponenter som du har nu, App, Pokegame, Pokedex, Pokecard. Dela upp komponenterna i vardera modul (egen .jsx-fil). Lägg alla komponenter förutom App.jsx i en /components-folder i roten. Importera funktioneskomponenten i respektive modul - där den behövs enligt parent - child
