@@ -98,7 +98,7 @@ För varje Pokemon ska följande bild läsas in enligt id för en pokemon.
 
 Använd dig av object destructering när du skickar props mellan komponenter, se s 68-70 i kursboken. Detta blir ett mer cleant sätt att hantera sina props, så försök arbeta enligt detta sätt redan nu.
 
-### Styling
+## Valfritt: Styling
 
 Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare i kursen kommer vi titta på andra sätt att använda CSS i React.
 
@@ -117,7 +117,7 @@ Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare 
 Bygg en reactapp som automatisk delar ut 2 kort från en normal kortlek (eller när man klickar på knapp). 
 Använd dig av Deck of Cards API för att hämta bilden för respektive kort.
 
-´https://deckofcardsapi.com/static/img/9H.png)`
+`https://deckofcardsapi.com/static/img/9H.png)`
 
 Regler, kortfattat: Alla klädda kort är värda 10 poäng. Ess är värt 1 eller 11 poäng. Skriv ut "Black Jack" om summan är 21.
 
