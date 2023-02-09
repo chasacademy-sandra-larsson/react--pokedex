@@ -15,8 +15,10 @@ Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin
 * Hantera props med Object Destructering (s 68-78)
 
 ### Redovisning:
-Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
-Du redovisar slutresultat av övningen Pokedex (se nedan) 
+* Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
+* Du redovisar slutresultat av övningen Pokedex (se nedan) 
+
+Om du inte kan delta åp workshopen, redovisar du ovanstående nästekommande workshop.
 
 
 ### Sätta upp ett Reactprojekt med Vite s 11-18 i kursboken
@@ -42,7 +44,7 @@ Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna
 Syftet med övningen är lära sig att bygga en enkel React-app flera komponenenter och props som skickar information mellan dem.
 
 Din uppgift: Du skapa en s.k Pokedex som innehåller några utvalda Pokemenkort med respektive information om vardera Pokemon. Rendering ska se ut (ungefär) som denna bild. 
-![Pokedex](/pokedex.png=250x250)
+![Pokedex](/pokedex.png)
 
 ## Del 1
 
