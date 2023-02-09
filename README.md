@@ -1,5 +1,7 @@
 
-👋 ⚛️ # React workshop #1: Komma igång med React, Komponenter och Props
+# React workshop #1: Komma igång med React, Komponenter och Props
+
+👋 ⚛️ 
 
 Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin Wieruch.
 
