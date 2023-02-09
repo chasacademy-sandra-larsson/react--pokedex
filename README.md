@@ -101,3 +101,6 @@ Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare 
 * Dela upp komponenterna i vardera modul (egen .jsx-fil)
 * Lägg alla komponenter förutom App.jsx i en /components-folder i roten. 
 * Importera funktionskomponenten i respektive modul - där den behövs enligt parent/child
+
+
+# Bonus: Blackjack
