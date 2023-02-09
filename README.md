@@ -82,10 +82,11 @@ https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.p
 ## Del 2
 
 * Nu ska du även skapa en Pokegame-komponent
-* Modifiera din App komponent så att den renderar en Pokegame istället för en Pokedex
-* Pokegame ska ta emot data med pokemons och sedan ska slumpa 2 "händer" med 4 st pokemens vardera. Pokegame ska alltså rendera 2 st Pokedex. 
-* I Pokegame ska total experience beräknas baserat på summan av vardera base_experience för vardera hand, Total experience och base_experience ska alltså skickas med som props till Pokedex. 
-* I Pokegame ska man också kunna avgöra vilken hand som har högst total experience och skicka med en props `isWinner. I Pokedex ska det nu också visas en rubrik "This hand wins" om isWinner är true. 
+* Modifiera din App-komponent så att den renderar en Pokegame istället för en Pokedex
+* Pokegame ska ta emot data med pokemons och sedan slumpa 2 st "händer" med 4 st pokemens vardera. Pokegame ska alltså rendera 2 st Pokedex. 
+* I Pokegame ska du beräkna summan av `base_experience` för vardera hand. Summan ska skickas med som props till Pokedex.
+* I Pokegame ska man kunna avgöra vilken hand av pokemonkort som har högst experience. Skicka med ännu en props till Pokedex som heter `isWinner` som är true om handen har högst experience eller false om den inte har det. 
+* I Pokedex-komponenten ska det nu också visas en rubrik "This hand wins!!" om isWinner är true. 
 
 ### Styling
 
