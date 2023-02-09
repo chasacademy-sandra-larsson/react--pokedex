@@ -1,8 +1,8 @@
 
-# React workshop 1: Komma igång med React, Komponenter och Props  ⚛️ 
+# React workshop 1: Komma igång med React, Komponenter och Props  
 
 
-👋 Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin Wieruch.
+👋 Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin Wieruch ⚛️ 
 
 ### Innehåll denna workshop:
 * Sätta upp ett Reactprojekt med Vite 
@@ -20,7 +20,6 @@
 * Du redovisar slutresultat av övningen Pokedex (se nedan) 
 
 Om du inte kan delta på workshopen, redovisar du ovanstående nästkommande workshop.
-
 
 ### Sätta upp ett Reactprojekt med Vite 
 
