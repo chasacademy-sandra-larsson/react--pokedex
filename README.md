@@ -1,5 +1,5 @@
 
-# React workshop 1: Komma igång med React, Komponenter och Props
+# React workshop #1: Komma igång med React, Komponenter och Props
 
 Denna workshop behandlar s 11-52, 68-78 i kursboken "The road to React" av Robin Wieruch.
 
@@ -44,26 +44,14 @@ Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna
 
 # Övning: Pokedex
 
-Syftet med övningen är lära sig att bygga en enkel React-app flera komponenenter och props som skickar information mellan dem.
+Syftet med övningen är lära sig att bygga en enkel react med flera komponenenter samt props som skickar information mellan dem.
 
-Din uppgift: Du skapa en s.k Pokedex som innehåller några utvalda Pokemenkort med respektive information om vardera Pokemon. Rendering ska se ut (ungefär) som denna bild. 
+### Din uppgift: 
+Du skapa en s.k Pokedex som innehåller några utvalda Pokemenkort med respektive information om vardera Pokemon. Renderingen ska se ut (ungefär) som denna bild. 
+
 ![Pokedex](/pokedex.png)
 
-## Del 1
-
-Du ska skapa 3 olika komponenter: 
-
-### App 
-Den här komponenten ska rendera ut endast en Pokedex-komponent
-
-### Pokedex 
-Den här komponenten ska ta emot en array av objekt som beskriver varje Pokemon
-
-### Pokecard
-Den här komponenten visar en Pokemen med namn, bild, typ och experience 
-
-I App-komponenten ska följande lista skickas med som props till Pokedex-komponenten.
-
+Använd dig av följande data:
 ```
 [
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
@@ -77,14 +65,27 @@ I App-komponenten ska följande lista skickas med som props till Pokedex-kompone
 ]
 ```
 
-För varje Pokemon ska följande bild läsas in till <img src=""> - enligt id.
+## Del 1
+Du ska skapa 3 olika komponenter: 
+
+### App 
+Den här komponenten ska rendera ut endast en Pokedex-komponent, där datat om pokemons ska skickas med som props.
+
+### Pokedex 
+Den här komponenten ska ta emot datat om pokements (en array av objekt) och rendera vardera Pokecard. Använd dig av map()!
+
+### Pokecard
+Den här komponenten visar en Pokemen med namn, bild, typ och experience 
+För varje Pokemon ska följande bild läsas in enligt id för en pokemon.
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png.
 
 ## Del 2
 
-Modifiera din App komponent så att den renderar en Pokegame komponent. Pokegame ska ta emot listan av pokemons och sedan ska det slumpas 2 händer med 4 st pokemens. Pokegame ska alltså rendera 2 st Pokedex. 
-I Pokegame ska total experience beröknas baserat på summan av vardera base_experience i vardera hand och skickas med som props till Pokedex. 
-I Pokegame ska man också kunna avgöra vilken hand som har högst total experience och skicka med en props isWinner. I Pokedex ska det nu också visas en rubrik "This hand wins" om isWinner är true. 
+* Nu ska du även skapa en Pokegame-komponent
+* Modifiera din App komponent så att den renderar en Pokegame istället för en Pokedex
+* Pokegame ska ta emot data med pokemons och sedan ska slumpa 2 "händer" med 4 st pokemens vardera. Pokegame ska alltså rendera 2 st Pokedex. 
+* I Pokegame ska total experience beräknas baserat på summan av vardera base_experience för vardera hand, Total experience och base_experience ska alltså skickas med som props till Pokedex. 
+* I Pokegame ska man också kunna avgöra vilken hand som har högst total experience och skicka med en props `isWinner. I Pokedex ska det nu också visas en rubrik "This hand wins" om isWinner är true. 
 
 ### Styling
 
