@@ -25,7 +25,7 @@
 
 Se s 11-18 i kursboken
 
-* Se till att du har [Node.js installera](thttps://nodejs.org) 
+* Se till att du har [Node.js installerat](thttps://nodejs.org) 
 * Navigera i terminalen där du vill installera din reactapp.
 * Kör sedan du följande instruktion i terminalen
 
@@ -37,10 +37,15 @@ npm create vite@latest my-app -- --template react
 
 Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
 
-* Vad står SPA för?
-* Vad är JSX?
-* Vad gör React unikt?
+* Vad är React? 
+* Vilka fördelar finns det med React? 
+* Finns det begrönsningar med React?
+* Vad är en komponent? Vilka typer av komponenter finns det?
+* Vad är JSX? Vad är syftet med JSX?
+* Hur renderar man en lista i React? Varför behövs en key?
 * Vad är en prop? 
+* Vad är Virtual DOM? Hur använder React Virtual DOM?
+
 
 # Övning: Pokedex
 
@@ -89,15 +94,19 @@ För varje Pokemon ska följande bild läsas in enligt id för en pokemon.
 * I Pokegame ska man kunna avgöra vilken hand av pokemonkort som har högst experience. Skicka med ännu en props till Pokedex som heter `isWinner` som är `true` om handen har högst experience eller false om den inte har det. 
 * I Pokedex-komponenten ska det nu också visas en rubrik "This hand wins!!" om isWinner är true. 
 
+## Del 3
+
+Använd dig av object destructering när du skickar props mellan komponenter, se s 68-70 i kursboken. Detta blir ett mer cleant sätt att hantera sina props, så försök arbeta enligt detta sätt redan nu.
+
 ### Styling
 
 Styla för enklare layout (flexbox, grid). CSS:en kan läggas i App.css. Senare i kursen kommer vi titta på andra sätt att använda CSS i React.
 
-## Del 3
+## Del 4
 
 **Obs! Det kan vara en fördel att låta alla komponenter ligga i samma fil för bättre överblick - just när man lär sig React i början. D.v.s gör detta steg allra sist**
 
-* Rita en komponentträd för de komponenter som du har: App, Pokegame, Pokedex, Pokecard. 
+* Rita ett komponentträd för de komponenter som du har: App, Pokegame, Pokedex, Pokecard. 
 * Dela upp komponenterna i vardera modul (egen .jsx-fil)
 * Lägg alla komponenter förutom App.jsx i en /components-folder i roten. 
 * Importera funktionskomponenten i respektive modul - där den behövs enligt parent/child
