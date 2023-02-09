@@ -19,7 +19,7 @@
 * Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
 * Du redovisar slutresultat av övningen Pokedex (se nedan) 
 
-Om du inte kan delta på workshopen, redovisar du ovanstående nästkommande workshop.
+*** Om du inte kan delta på workshopen, redovisar du ovanstående nästkommande workshop ***
 
 ### Sätta upp ett Reactprojekt med Vite 
 
