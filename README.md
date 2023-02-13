@@ -25,7 +25,7 @@
 
 Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
 
-* Vad är JSX? Vad är syftet med JSX?
+* Vad är JSX? Är JSX nödvändigt?
 * Hur renderar man en lista i React? Varför behövs en key?
 * Vad är prop och vad används de till?
 * Varför har React namngivning som ex className, htmlFor?
