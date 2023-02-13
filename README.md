@@ -25,13 +25,10 @@
 
 Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
 
-* Vad är React? 
-* Vilka fördelar finns det med React? 
-* Finns det begrönsningar med React?
-* Vad är en komponent? Vilka typer av komponenter finns det?
 * Vad är JSX? Vad är syftet med JSX?
 * Hur renderar man en lista i React? Varför behövs en key?
-* Vad är en prop? 
+* Vad är prop och vad används de till?
+* Varför har React namngivning som ex className, htmlFor?
 * Vad är Virtual DOM? Hur använder React Virtual DOM?
 
 # 👩🏽‍💻 Övning: Pokedex
