@@ -29,7 +29,7 @@ Diskutera följande frågor i studiegruppen medan ni jobbar, redovisa sedan för
 * Hur renderar man en lista i React? Varför behövs en key?
 * Vad är prop och vad används de till?
 * Varför har React namngivning som ex className, htmlFor?
-* Vad är Virtual DOM? Hur använder React Virtual DOM?
+* Hur kan man använda sig av object desctructering för att hantera props "mer cleant"?
 
 # 👩🏽‍💻 Övning: Pokedex
 
