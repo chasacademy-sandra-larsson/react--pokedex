@@ -23,7 +23,7 @@
 
 ### 💬 Diskussionsfrågor
 
-Diskutera följande frågor i studiegruppen och redovisa för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
+Diskutera följande frågor i studiegruppen medan ni jobbar, redovisa sedan för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
 
 * Vad är JSX? Är JSX nödvändigt?
 * Hur renderar man en lista i React? Varför behövs en key?
