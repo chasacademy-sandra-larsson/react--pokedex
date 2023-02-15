@@ -61,6 +61,10 @@ Du ska skapa 3 olika komponenter:
 ### App 
 Den här komponenten ska rendera ut endast en Pokedex-komponent, där datat om pokemons ska skickas med som en prop.
 
+
+### Pokedex 
+Den här komponenten ska ta emot datat om pokemens (en array av objekt) och rendera vardera Pokecard. Använd dig av map()!
+
 **Använd dig av följande data om pokemenons:**
 
 ```
@@ -75,9 +79,6 @@ Den här komponenten ska rendera ut endast en Pokedex-komponent, där datat om p
 	  {id: 133, name: 'Eevee',      type: 'normal',   base_experience: 65}
 	]
 ```
-
-### Pokedex 
-Den här komponenten ska ta emot datat om pokemens (en array av objekt) och rendera vardera Pokecard. Använd dig av map()!
 
 ### Pokecard
 Den här komponenten visar en Pokemon med namn, bild, typ och experience. För varje PokeCard ska följande bild läsas in enligt id för en pokemon:
