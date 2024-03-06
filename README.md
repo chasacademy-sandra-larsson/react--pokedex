@@ -10,10 +10,10 @@
 * Använda dig av JSX
 * Använda dig av flera komponenter
 * Skicka information från en komponent till en annan komponent (använda props)
+* Hantera props med object Destructering 
 * Hur man renderar listor i React m.h.a map()
 * Skriva logik (funktioner) inuti komponenter
 * Dela upp varje funktionskomponent i moduler 
-* Hantera props med Object Destructering (s 68-78)
 
 ### Redovisning:
 * Du/gruppen redovisar svaren på instuderingsfrågorna muntligt under workshop. 
